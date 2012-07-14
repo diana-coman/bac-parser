@@ -14,7 +14,8 @@ def parse_args():
     parser = argparse.ArgumentParser(
             description='Extract results from bacalaureat')
     parser.add_argument('--year', metavar='YEAR', type=int,
-            required=True, choices=bacparser.models.SUPPORTED_YEARS,
+            choices=bacparser.models.SUPPORTED_YEARS,
+            default=bacparser.models.SUPPORTED_YEARS[-1],
             help='Year of the exam')
     parser.add_argument('-o', '--output', metavar='OUTPUT',
                         type=lambda f: open(f, 'wb'), default=sys.stdout)
