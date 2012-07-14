@@ -29,7 +29,8 @@ def parse_args():
     parser = argparse.ArgumentParser(
             description='Extract results from bacalaureat')
     parser.add_argument('--year', metavar='YEAR', type=int,
-            required=True, choices=bacparser.parsers.SUPPORTED_YEARS,
+            choices=bacparser.parsers.SUPPORTED_YEARS,
+            default=bacparser.parsers.SUPPORTED_YEARS[-1],
             help='Year of the exam')
     parser.add_argument('--format', metavar='FORMAT',
                         type=str, choices=('python', 'pickle'),
