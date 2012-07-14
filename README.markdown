@@ -1,6 +1,6 @@
 This is a scraping script for extracting the results of the
 [Romanian Baccalaureate][1] from http://bacalaureat.edu.ro for the years
-2006 - 2011.
+2006 - 2012.
 
 [1]: http://en.wikipedia.org/wiki/Romanian_Baccalaureate
 
