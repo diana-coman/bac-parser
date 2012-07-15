@@ -85,7 +85,7 @@ it public domain.
 Credits
 =======
 
-This wouldn't have been possible without the [Sothink SWF Decompiler][2]. Shame
-on Siveco for using Flash even if it wasn't really needed.
+This wouldn't have been possible without the [Sothink SWF Decompiler][2].
+Shame on Siveco for using Flash even if it wasn't really needed.
 
 [2]: http://www.sothink.com/product/flashdecompiler/
